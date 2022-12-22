@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john.doe@gmail.com",
+      "avatar": "https://avatars.dicebear.com/api/male/john.svg?background=%230000ff"
+    },
+    {
+      "id": 2,
+      "name": "Jane Doe",
+      "email": "jane.doe@gmail.com",
+      "avatar": "https://avatars.dicebear.com/api/female/jane.svg?background=%230000ff"
+    },
+    {
+      "name": "Luis",
+      "email": "lrodriguez@gmail.com",
+      "avatar": "https://avatars.dicebear.com/api/male/Luis.svg?background=%230000ff",
+      "id": 3
+    },
+    {
+      "name": "Maria",
+      "email": "maria@gmail.com",
+      "avatar": "https://avatars.dicebear.com/api/female/Maria.svg?background=%230000ff",
+      "id": 5
+    },
+    {
+      "name": "Rodrigo",
+      "email": "rodrigo@yahoo.com",
+      "avatar": "https://avatars.dicebear.com/api/male/Rodrigo.svg?background=%230000ff",
+      "id": 7
+    }
+  ]
+}
