@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './Ficha.module.css';
 import { FaEdit, FaTrash } from 'react-icons/fa';
 
-export default function ({ id, name, email, avatar, deleteUser }) {
+export default function ({ id, name, email, avatar, deleteUser, editUser }) {
     return (
         <div className={"card mb-3 shadow " + styles.ficha}>
             <div className="row g-0">
@@ -16,7 +16,7 @@ export default function ({ id, name, email, avatar, deleteUser }) {
                         <p className="card-text d-flex justify-content-between">
                             <small className="text-muted">Id: {id}</small>
                             <div className="button-group">
-                            <button className="btn btn-info btn-sm mx-1"><FaEdit /></button>
+                            <button className="btn btn-info btn-sm mx-1" onClick={() => editUser({ id, name, email })}><FaEdit /></button>
                             <button className="btn btn-danger btn-sm" onClick={() => deleteUser(id) }><FaTrash /></button>
                             </div>
                         </p>

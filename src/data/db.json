@@ -13,16 +13,10 @@
       "avatar": "https://avatars.dicebear.com/api/female/jane.svg?background=%230000ff"
     },
     {
-      "name": "Luis",
-      "email": "lrodriguez@gmail.com",
-      "avatar": "https://avatars.dicebear.com/api/male/Luis.svg?background=%230000ff",
-      "id": 3
-    },
-    {
+      "id": 5,
       "name": "Maria",
       "email": "maria@gmail.com",
-      "avatar": "https://avatars.dicebear.com/api/female/Maria.svg?background=%230000ff",
-      "id": 5
+      "avatar": "https://avatars.dicebear.com/api/female/Maria.svg?background=%230000ff"
     },
     {
       "name": "Rodrigo",
